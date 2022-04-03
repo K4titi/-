@@ -8,7 +8,7 @@ class Register(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
 
-        self.label = tk.Label(self, text="Αποθήκευση Πελατών", font=controller.title_font).grid(row=0, column=1)
+        self.label = tk.Label(self, text="Αποθήκευση Εγγραφής", font=controller.title_font).grid(row=0, column=1)
 
         self.fname = tk.Entry(self, width=30)
         self.fname.grid(row=2, column=1)
